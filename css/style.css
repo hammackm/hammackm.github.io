@@ -1,0 +1,23 @@
+body{
+	background-color:#fff0e0;
+	color:#00000f;
+	
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:normal;
+	
+	line-height:1.5em; /*or em, px */
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	
+	border: 5px white solid;
+	padding:20px;
+}
+
+
+.box-1{
+
+}
