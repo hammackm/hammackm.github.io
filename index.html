@@ -1,52 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<title>Mitchell Hammack's Webpage</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<h1>Mitchell Hammack</h1>
-		<p>My <strong><a href="test.html" target="_blank">new</a></strong> webpage with <a href="https://github.com/hammackm" target="_blank">github!</a> Still a work in progress.</p>
-		
-		<br>
-		<hr>
-		<table>
-			<thead>
-				<tr>
-					<th>Project Name</th>
-					<th>Start Date</th>
-					<th>End Date</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Skin Cancer Detection Using Convolutional Neural Networks</td>
-					<td>June 2015</td>
-					<td>Currently Ongoing</td>
-				</tr>
-				<tr>
-					<td>Planet: Understanding the Amazon from Space</td>
-					<td>2017</td>
-					<td>2017</td>
-				</tr>
-			</tbody>
-		</table>
-		<div class="container">
-			
-			<div class="box-1">
-				<br>
-				<h3><a href="scducnn.html">Skin Cancer Detection Using Convolutional Neural Networks</a></h3>
-				<p>The goal of this project was to design and implement a convolutional
-				neural network that could accurately differeniate between two types of
-				images, melanoma skin lesions, and non-melanoma skin lesions (moles). </p>
-			</div>
-		</div>
-		<br>
-		<h3><a href="planet.html">Planet: Understanding the amazon from space</a></h3>
-		<p>This was a data science competition hosted on <a href="https://www.kaggle.com/hammackm1" target="_blank">kaggle</a>
-		Project description from the website: In this competition, Planet and its Brazilian partner SCCON are challenging Kagglers to label satellite image chips with atmospheric conditions and various classes of land cover/land use. Resulting algorithms will help the global community better understand where, how, and why deforestation happens all over the world - and ultimately how to respond.
-		</p>
-		
-	</body>
-	
+
+<head>
+    <title>Mitchell Hammack's Webpage</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Mitchell Hammack</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kaggle Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="test.html">Blog</a></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-9">
+				
+				<div class="alert alert-info" role="alert">
+					This is a info alert—check it out!
+				</div>
+				
+				<div class="card text-white bg-info mb-3">
+					<div class="card-body">
+						<h4 class="card-title">Kaggle Competitions</h4>
+					</div>
+				</div>
+				
+				
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                                Skin Cancer Detection Using Convolutional Neural Networks
+                        </h5>
+                        <p class="card-text">
+                                The goal of this project was to design and implement a convolutional neural network that could accurately
+                                differeniate between two types of images, melanoma skin lesions, and non-melanoma skin lesions (moles).
+                        </p>
+                    </div>
+                </div>
+				
+				<br></br>
+
+                <div class="card">
+                    <div class="card-header">
+                        header
+                    </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                    Planet: Understanding the amazon from space
+                            </h5>
+                            <p class="card-text">
+                    Project description from the website: In this competition, Planet and its Brazilian partner SCCON are challenging Kagglers
+                    to label satellite image chips with atmospheric conditions and various classes of land cover/land use.
+                    Resulting algorithms will help the global community better understand where, how, and why deforestation
+                    happens all over the world - and ultimately how to respond.
+                            </p>
+                            <a href="https://www.kaggle.com/hammackm1" class="btn btn-primary">Kaggle</a>
+
+                        </div>
+                        <div class="card-footer">
+                            footer
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-3">
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
