@@ -88,10 +88,10 @@ export default function Intro() {
                                 —Hello!
                             </Typography>
                             <Typography className={classes.introIntroduction} gutterBottom>
-                                <span style={{opacity: 0.25}}>&lt;p&gt;</span>My name is <span style={{color: "#1C2541", fontWeight: 'bold'}}>Mitchell Hammack</span> and I am currently a CS student at the University of Florida. I have a passion for combining machine learning and web apps.
-                                I am currently seeking an internship for the summer of 2020.<span style={{opacity: 0.25}}>&lt;/p&gt;</span>
+                                My name is <span style={{color: "#1C2541", fontWeight: 'bold'}}>Mitchell Hammack</span> and I am currently a CS student at the University of Florida. I have a passion for combining machine learning and web apps.
+                                I am currently seeking an internship for the summer of 2020.
                             </Typography>
-                            <Typography>For a quicker snapshot at my skills, experience, etc. Take a look at my <u>resume</u>.</Typography>
+                            <Typography></Typography>
                         </CardContent>
                     </Card>
                 </Grid>
